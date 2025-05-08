@@ -14,13 +14,13 @@ I am a student at Columbia College Chicago. This portfolio showcases my work fro
 - Input handling 
 - ASCII Visuals
 
-### Adventure Game 3
-> Traverse across various biomes of alien landscapes and document extraterrestial life. 
+### Adventure Game 3 - "Operation BioTrace"
+> Traverse across uncharted alien biomes and document extraterrestial life. Submit five findings to the Transitter Beacon to complete the mission.
 <br> <sub><ins> #C WPF Visuals point-and-click game</ins></sub>
 
 #### *FEATURES*
-- x
-- x
-- x
+- Visually interactive UI
+- Randomized encounters
+- Linear gameplay
 
 ### Game 3
