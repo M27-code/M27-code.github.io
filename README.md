@@ -15,7 +15,9 @@ I am a student at Columbia College Chicago. This portfolio showcases my work fro
 - Input handling 
 - ASCII Visuals
 
-### Adventure Game 3 - "Operation BioTrace"
+### Adventure Game 3 - "Operation: BIOTRACE"
+<img src="https://i.ibb.co/kgZRzD7J/Screenshot-2025-05-11-174654.png" alt="Exoplanet" border="0"></a>
+<a href="https://ibb.co/tMR7n2Gz"><img src="https://i.ibb.co/kgZRzD7J/Screenshot-2025-05-11-174654.png" alt="Exoplanet" border="0"></a>
 > Traverse across uncharted alien biomes and document extraterrestial life. Submit five findings to the Transitter Beacon to complete the mission.
 <br> <sub><ins> #C WPF Visuals point-and-click game</ins></sub>
 
