@@ -25,4 +25,42 @@ I am a student at Columbia College Chicago. This portfolio showcases my work fro
 - Randomized encounters
 - Linear gameplay
 
-### Game 3
+## Expirimental Learning
+
+### Cumlative Verse
+
+> A program which properly generates the lyrics to *"The Twelve Days of Christmas"* in sequential order, including correct grammar in the fixed format. 
+
+### Substitution Cipher
+
+> A program which ciphers user input by shifting alphabetical order based on input value.
+
+### Star Pyramid
+
+`class Program
+{
+    static void Main(string[] args) 
+    {
+        int height = 12; //pyramid height
+
+        for (int i = 1; i <= height; i++) //outer loop
+        {
+            //increasing - between * each row down
+            for (int j = 1; j <= height - i; j++)
+            {
+                Console.Write("-");
+            }
+
+            //increase * by one
+            for (int k = 1; k <= (2 * i - 1); k++)
+            {
+                Console.Write("*");
+            }
+
+            //next line
+            Console.WriteLine();
+        }
+    }
+}`
+
+> A program which generates a triangle of asterisks using loops.
