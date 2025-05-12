@@ -18,7 +18,7 @@ I am a student at Columbia College Chicago. This portfolio showcases my work fro
 ### Adventure Game 3 - "Operation: BIOTRACE"
 <img src="https://i.ibb.co/kgZRzD7J/Screenshot-2025-05-11-174654.png" alt="Exoplanet"></a>
 > Traverse across uncharted alien biomes and document extraterrestial life. Submit five findings to the Transitter Beacon to complete the mission.
-<br> <sub><ins> #C WPF Visuals point-and-click game</ins></sub>
+<br> <sub><ins> #C WPF Visual point-and-click game</ins></sub>
 
 #### *FEATURES*
 - Visually interactive UI
@@ -37,30 +37,32 @@ I am a student at Columbia College Chicago. This portfolio showcases my work fro
 
 ### Star Pyramid
 
-`class Program
-{
-    static void Main(string[] args) 
+    `class Program
     {
-        int height = 12; //pyramid height
-
-        for (int i = 1; i <= height; i++) //outer loop
+        static void Main(string[] args) 
         {
-            //increasing - between * each row down
-            for (int j = 1; j <= height - i; j++)
+            int height = 12; //pyramid height
+    
+            for (int i = 1; i <= height; i++) //outer loop
             {
-                Console.Write("-");
+                //increasing - between * each row down
+                for (int j = 1; j <= height - i; j++)
+                {
+                    Console.Write("-");
+                }
+    
+                //increase * by one
+                for (int k = 1; k <= (2 * i - 1); k++)
+                {
+                    Console.Write("*");
+                }
+    
+                //next line
+                Console.WriteLine();
             }
-
-            //increase * by one
-            for (int k = 1; k <= (2 * i - 1); k++)
-            {
-                Console.Write("*");
-            }
-
-            //next line
-            Console.WriteLine();
         }
-    }
-}`
+    }`
 
 > A program which generates a triangle of asterisks using loops.
+
+:suspect:
