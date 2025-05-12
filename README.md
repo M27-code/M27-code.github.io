@@ -37,7 +37,9 @@ I am a student at Columbia College Chicago. This portfolio showcases my work fro
 
 ### Star Pyramid
 
-    `class Program
+> A program which produces a triangle of asterisks using loops.
+
+    class Program
     {
         static void Main(string[] args) 
         {
@@ -61,8 +63,6 @@ I am a student at Columbia College Chicago. This portfolio showcases my work fro
                 Console.WriteLine();
             }
         }
-    }`
-
-> A program which generates a triangle of asterisks using loops.
+    }
 
 :suspect:
