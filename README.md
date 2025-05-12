@@ -42,7 +42,8 @@ I am a student at Columbia College Chicago. This portfolio showcases my work fro
 
 ### Substitution Cipher
 
-> A program which allows **user input to be ciphered and deciphered** utilizing the Caesar Cipher.
+<img src="https://i.ibb.co/3Y4mYDv0/Screenshot-2025-05-12-145650.png" alt="Cipher"></a>
+> A program which allows user input to be encoded and decoded through **subtitution logic**.
 
      public string Encrypt(string _message)
      {
@@ -60,10 +61,11 @@ I am a student at Columbia College Chicago. This portfolio showcases my work fro
      
          return result;
      }
-<sup>*Encryption process referring the set `substitute` string - C# program*</sup>
+<sup>*Encryption process referring to `substitute` string - C# program*</sup>
 
 ### Star Pyramid
 
+<img src="https://i.ibb.co/Qv7Tzk84/pyramid-C.png" alt="Pyramid"></a>
 > A program which produces a triangle of asterisks using **loops**.
 
     class Program
