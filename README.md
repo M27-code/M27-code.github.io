@@ -30,23 +30,41 @@ I am a student at Columbia College Chicago. This portfolio showcases my work fro
 ### Cumlative Verse
 
 <img src="https://i.ibb.co/79RJtYW/Screenshot-2025-05-12-143739.png" alt="12Days"></a>
-> A program which properly generates the lyrics to *"The Twelve Days of Christmas"* in sequential order, including correct grammar in the fixed format.
+> A program which properly generates the lyrics to *"The Twelve Days of Christmas"* **in sequential order, including correct grammar and syntax**.
 
      //"if the item is 0 (Partridge) and the day is greater than 1 (1st day of Christmas)"
     if (item == 0 && day > 1)
             Console.WriteLine("and " + items[item] + "."); //it's the Partridge line and requires an "and" and "."
     else
             Console.WriteLine(items[item] + (item == 0 ? "." : ",")); //"?" if the item is 0 place "." else place ","
-<br><sup>*Logic used for syntax correction*</sup>
+<sup>*Logic used for syntax correction - C# program*</sup>
 
 
 ### Substitution Cipher
 
-> A program which ciphers user input by shifting alphabetical order based on input value.
+> A program which allows **user input to be ciphered and deciphered** utilizing the Caesar Cipher.
+
+     public string Encrypt(string _message)
+     {
+         int index;
+         char replacement = 'z';
+         string result = "";
+         _message = _message.ToLower();
+     
+         foreach (char c in _message)
+         {
+             index = alphabet.IndexOf(c);
+             replacement = substitute[index];
+             result += replacement;
+         }
+     
+         return result;
+     }
+<sup>*Encryption process referring the set `substitute` string - C# program*</sup>
 
 ### Star Pyramid
 
-> A program which produces a triangle of asterisks using loops.
+> A program which produces a triangle of asterisks using **loops**.
 
     class Program
     {
@@ -73,5 +91,6 @@ I am a student at Columbia College Chicago. This portfolio showcases my work fro
             }
         }
     }
+<sup>*Full program code using dashes as placeholders - C# program*</sup>    
 
 :suspect:
