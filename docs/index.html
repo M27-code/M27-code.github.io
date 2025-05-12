@@ -4,7 +4,65 @@
     <title>M27-code.github.io</title>
     <style>
         body {background-color: black;}
-        p    {color: white;}
+        h1 {
+            color: white;
+            font-family:"Trebuchet MS", Helvetica, sans-serif;
+            text-align: center;
+			text-shadow: 0 0 8px teal, 0 0 8px teal;
+        }
+        h2 {
+            color: white;
+            font-family:"Trebuchet MS", Helvetica, sans-serif;
+            text-align: center;
+        }
+        h3 {
+            font-family:"Trebuchet MS", Helvetica, sans-serif; 
+            color: white; 
+            border: 1px dashed white; 
+            padding: 15px;
+            text-align: center;
+			text-shadow: 0 0 8px cyan;
+			box-shadow: 0 0 8px teal;
+
+        }
+        h4 {
+            font-family:"Trebuchet MS", Helvetica, sans-serif; 
+            text-align: center; 
+            color: white;    
+        }
+        p {
+            font-family:"Georgia"; 
+            color: white;
+            text-shadow: 2px 2px 10px black;
+       		margin-left: 10%;
+            margin-right: 10%;
+			
+        }
+        div {
+        	border: 5px groove teal;
+            background: linear-gradient(to bottom, black, teal);
+            width:800px;
+            padding:20px;
+  			margin-left:auto;
+            margin-right:auto;
+        }
+        ul {
+            color: white;   
+            margin-left: 35%;
+        }
+        
+        pre {
+        	class: center;
+            padding: 10px; 
+            background-color: black; 
+            color: lime; 
+            border: 2px groove white; 
+            width: 70%; 
+            word-wrap: break-word;
+            margin: 0 auto;
+			overflow: auto;
+        }
+
         /* Centering images */
         .center {
             display: block;
@@ -15,17 +73,21 @@
 </head>
 <body>
 
-<h1>M27-code.github.io</h1>
+<h1 style="color: white;">M27-code.github.io</h1>
 
-<h2>Intro</h2>
-<p>I am a student at CCC. This portfolio showcases my work from PROG-101.</p>
+<div style="background: linear-gradient(to bottom, black, rgba(0, 128, 128, 0.2));">
+<h2>INTRO</h2>
+<p style="text-align: center;">I am a student at CCC. This portfolio showcases my work from PROG-101 with Janell Baxter.</p>
+</div>
 
-<h2>Project Examples</h2>
+<br>
 
-<h3 style="font-family:verdana; color:red;">Adventure Game 2 - "Mansion Mayhem"</h3>
-<img src="https://i.ibb.co/kVNz5Hgf/Mansion.png" alt="Mansion" class="center">
-<p>Compete to inherit a late millionaire’s estate by solving logic-based room puzzles. Search for clues from a deceptive widow, a cryptic but honest butler, and hints hidden in the mansion itself.</p>
-<p><sub><ins>#C text-based game</ins></sub></p>
+<div>
+<h2>PROJECT EXAMPLES</h2>
+<h3>Adventure Game 2 - "Mansion Mayhem"</h3>
+<img src="https://i.ibb.co/kVNz5Hgf/Mansion.png" alt="Mansion" class="center" style="border: 3px groove teal; box-shadow: 5px 5px 15px black;">
+<p style="margin-top: 25px;">Compete to inherit a late millionaire’s estate by solving logic-based room puzzles. Search for clues from a deceptive widow, a cryptic but honest butler, and hints hidden in the mansion itself.</p>
+<p style="font-size: 10px;"><ins>#C text-based game</ins></p>
 
 <h4><i><b>FEATURES</b></i></h4>
 <ul>
@@ -34,10 +96,12 @@
     <li>ASCII Visuals</li>
 </ul>
 
-<h3 style="color:green;">Adventure Game 3 - "Operation: BIOTRACE"</h3>
-    <img src="https://i.ibb.co/kgZRzD7J/Screenshot-2025-05-11-174654.png" alt="Exoplanet" class="center">
-        <p>Traverse across uncharted alien biomes and document extraterrestrial life. Submit five findings to the Transitter Beacon to complete the mission.</p>
-            <p><sub><ins>#C WPF Visual point-and-click game</ins></sub></p>
+<br>
+
+<h3>Adventure Game 3 - "Operation: BIOTRACE"</h3>
+    <img src="https://i.ibb.co/kgZRzD7J/Screenshot-2025-05-11-174654.png" alt="Exoplanet" class="center" style="border: 3px groove teal; box-shadow: 5px 5px 15px black;">
+        <p style="margin-top: 25px;">Traverse across uncharted alien biomes and document extraterrestrial life. Submit five findings to the Transitter Beacon to complete the mission.</p>
+            <p style="font-size: 10px;"><ins>#C WPF Visual point-and-click game</ins></</p>
 
 <h4><i><b>FEATURES</b></i></h4>
 <ul>
@@ -45,28 +109,34 @@
     <li>Randomized encounters</li>
     <li>Linear gameplay</li>
 </ul>
+</div>
 
-<h2>Experimental Learning</h2>
+<br><br>
+
+<div style="background: linear-gradient(to bottom, teal, black);">
+<h2>EXPIREMENTAL LEARNING</h2>
 
 <h3>Cumulative Verse</h3>
 
-<img src="https://i.ibb.co/79RJtYW/Screenshot-2025-05-12-143739.png" alt="12Days" class="center">
-<p>A program which properly generates the lyrics to *"The Twelve Days of Christmas"* <b>in sequential order, including correct grammar and syntax.</b></p>
+<img src="https://i.ibb.co/79RJtYW/Screenshot-2025-05-12-143739.png" alt="12Days" class="center" style="border: 3px groove teal; box-shadow: 5px 5px 15px black; height: 60%; width: 60%;">
+<p style="margin-top: 25px;">A program which properly generates the lyrics to <i>"The Twelve Days of Christmas"</i> <b>in sequential order, including correct grammar and syntax.</b></p>
 
 <pre>
-    //"if the item is 0 (Partridge) and the day is greater than 1 (1st day of Christmas)"
+//"if the item is 0 (Partridge) and the day is greater than 1 (1st day of Christmas)"
     if (item == 0 && day > 1)
         Console.WriteLine("and " + items[item] + "."); //it's the Partridge line and requires an "and" and "."
     else
         Console.WriteLine(items[item] + (item == 0 ? "." : ",")); //"?" if the item is 0 place "." else place ","
 </pre>
 
-<p><sup>*Logic used for syntax correction - C# program*</sup></p>
+<p style="font-size: 10px; text-align: center;"><i>Logic used for syntax correction - <ins>C# sample</ins></i></p>
+
+<br>
 
 <h3>Substitution Cipher</h3>
 
-<img src="https://i.ibb.co/3Y4mYDv0/Screenshot-2025-05-12-145650.png" alt="Cipher" class="center">
-<p>A program which allows user input to be encoded and decoded through <b>substitution logic</b>.</p>
+<img src="https://i.ibb.co/3Y4mYDv0/Screenshot-2025-05-12-145650.png" alt="Cipher" class="center" style="border: 3px groove teal; box-shadow: 5px 5px 15px black; height: 60%; width: 60%;">
+<p style="margin-top: 25px;">A program which allows user input to be encoded and decoded through <b>substitution logic</b>.</p>
 
 <pre>
 public string Encrypt(string _message)
@@ -87,12 +157,14 @@ public string Encrypt(string _message)
 }
 </pre>
 
-<p><sup>*Encryption process referring to `substitute` string - C# program*</sup></p>
+<p style="font-size: 10px; text-align: center;"><i>Encryption process referring to <b>substitute</b> string - <ins>C# sample</ins></i></p>
+
+<br>
 
 <h3>Star Pyramid</h3>
 
-<img src="https://i.ibb.co/Qv7Tzk84/pyramid-C.png" alt="Pyramid" class="center">
-<p>A program which produces a triangle of asterisks using <b>loops</b>.</p>
+<img src="https://i.ibb.co/Qv7Tzk84/pyramid-C.png" alt="Pyramid" class="center" style="border: 3px groove teal; box-shadow: 5px 5px 15px black;">
+<p style="margin-top: 25px;">A program which produces a triangle of asterisks using <b>loops</b>.</p>
 
 <pre>
 class Program
@@ -122,8 +194,13 @@ class Program
 }
 </pre>
 
-<p><sup>*Full program code using dashes as placeholders - C# program*</sup></p>
+<p style="font-size: 10px; text-align: center;"><i>Full program code using dashes as placeholders - <ins>C# program</i></ins></p>
+</div>
 
 </body>
 </html>
 
+<!-- EXTRERNAL RESOURCES USED: 
+https://www.w3schools.com/html/default.asp
+https://www.w3schools.com/css/default.asp
+https://www.w3schools.com/cssref/css_colors.php -->
