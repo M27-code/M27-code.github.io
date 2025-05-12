@@ -1,21 +1,28 @@
-# M27-code.github.io
+<!DOCTYPE html>
+<html>
+     <head>
+<h1>M27-code.github.io</h1>
+     </head>
+<body>
 
-## Intro
+<h2>Intro</h2>
 I am a student at Columbia College Chicago. This portfolio showcases my work from PROG-101 with Janell Baxter.
 
-## Project Examples
+<h2>Project Examples</h2>
 
-### Adventure Game 2 - "Mansion Mayhem"
-<img src="https://i.ibb.co/kVNz5Hgf/Mansion.png" alt="Mansion"></a>
+<h3 style="font-family:verdana; color:red;">Adventure Game 2 - "Mansion Mayhem"</h3>
+<img src="https://i.ibb.co/kVNz5Hgf/Mansion.png" alt="Mansion" class="center"></a>
 > Compete to inherit a late millionaire’s estate by solving logic-based room puzzles. Search for clues from a deceptive widow, a cryptic but honest butler, and hints hidden in the mansion itself.
 <br> <sub><ins> #C text-based game</ins></sub>
 
-#### *FEATURES*
-- Colored and rolling text 
-- Input handling 
-- ASCII Visuals
+<h4><i><b>FEATURES</i></b></h4>
+<ul>
+<li>Colored and rolling text</li> 
+<li>Input handling </li>
+<li>ASCII Visuals</li>
+</ul>
 
-### Adventure Game 3 - "Operation: BIOTRACE"
+<h3 style="color:green;"> Adventure Game 3 - "Operation: BIOTRACE"</h3>
 <img src="https://i.ibb.co/kgZRzD7J/Screenshot-2025-05-11-174654.png" alt="Exoplanet"></a>
 > Traverse across uncharted alien biomes and document extraterrestial life. Submit five findings to the Transitter Beacon to complete the mission.
 <br> <sub><ins> #C WPF Visual point-and-click game</ins></sub>
@@ -95,4 +102,5 @@ I am a student at Columbia College Chicago. This portfolio showcases my work fro
     }
 <sup>*Full program code using dashes as placeholders - C# program*</sup>    
 
-:suspect:
+</body>
+</html>
