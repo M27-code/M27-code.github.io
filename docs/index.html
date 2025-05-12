@@ -1,106 +1,129 @@
 <!DOCTYPE html>
-<html>
-     <head>
-<h1>M27-code.github.io</h1>
-     </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M27-code.github.io</title>
+    <style>
+        /* Centering images */
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
 <body>
 
+<h1>M27-code.github.io</h1>
+
 <h2>Intro</h2>
-I am a student at Columbia College Chicago. This portfolio showcases my work from PROG-101 with Janell Baxter.
+<p>I am a student at CCC. This portfolio showcases my work from PROG-101.</p>
 
 <h2>Project Examples</h2>
 
 <h3 style="font-family:verdana; color:red;">Adventure Game 2 - "Mansion Mayhem"</h3>
-<img src="https://i.ibb.co/kVNz5Hgf/Mansion.png" alt="Mansion" class="center"></a>
-> Compete to inherit a late millionaire’s estate by solving logic-based room puzzles. Search for clues from a deceptive widow, a cryptic but honest butler, and hints hidden in the mansion itself.
-<br> <sub><ins> #C text-based game</ins></sub>
+<img src="https://i.ibb.co/kVNz5Hgf/Mansion.png" alt="Mansion" class="center">
+<p>Compete to inherit a late millionaire’s estate by solving logic-based room puzzles. Search for clues from a deceptive widow, a cryptic but honest butler, and hints hidden in the mansion itself.</p>
+<p><sub><ins>#C text-based game</ins></sub></p>
 
-<h4><i><b>FEATURES</i></b></h4>
+<h4><i><b>FEATURES</b></i></h4>
 <ul>
-<li>Colored and rolling text</li> 
-<li>Input handling </li>
-<li>ASCII Visuals</li>
+    <li>Colored and rolling text</li>
+    <li>Input handling</li>
+    <li>ASCII Visuals</li>
 </ul>
 
-<h3 style="color:green;"> Adventure Game 3 - "Operation: BIOTRACE"</h3>
-<img src="https://i.ibb.co/kgZRzD7J/Screenshot-2025-05-11-174654.png" alt="Exoplanet"></a>
-> Traverse across uncharted alien biomes and document extraterrestial life. Submit five findings to the Transitter Beacon to complete the mission.
-<br> <sub><ins> #C WPF Visual point-and-click game</ins></sub>
+<h3 style="color:green;">Adventure Game 3 - "Operation: BIOTRACE"</h3>
+<img src="https://i.ibb.co/kgZRzD7J/Screenshot-2025-05-11-174654.png" alt="Exoplanet" class="center">
+<p>Traverse across uncharted alien biomes and document extraterrestrial life. Submit five findings to the Transitter Beacon to complete the mission.</p>
+<p><sub><ins>#C WPF Visual point-and-click game</ins></sub></p>
 
-#### *FEATURES*
-- Visually interactive UI
-- Randomized encounters
-- Linear gameplay
+<h4><i><b>FEATURES</b></i></h4>
+<ul>
+    <li>Visually interactive UI</li>
+    <li>Randomized encounters</li>
+    <li>Linear gameplay</li>
+</ul>
 
-## Expirimental Learning
+<h2>Experimental Learning</h2>
 
-### Cumlative Verse
+<h3>Cumulative Verse</h3>
 
-<img src="https://i.ibb.co/79RJtYW/Screenshot-2025-05-12-143739.png" alt="12Days"></a>
-> A program which properly generates the lyrics to *"The Twelve Days of Christmas"* **in sequential order, including correct grammar and syntax**.
+<img src="https://i.ibb.co/79RJtYW/Screenshot-2025-05-12-143739.png" alt="12Days" class="center">
+<p>A program which properly generates the lyrics to *"The Twelve Days of Christmas"* <b>in sequential order, including correct grammar and syntax.</b></p>
 
-     //"if the item is 0 (Partridge) and the day is greater than 1 (1st day of Christmas)"
+<pre>
+    //"if the item is 0 (Partridge) and the day is greater than 1 (1st day of Christmas)"
     if (item == 0 && day > 1)
-            Console.WriteLine("and " + items[item] + "."); //it's the Partridge line and requires an "and" and "."
+        Console.WriteLine("and " + items[item] + "."); //it's the Partridge line and requires an "and" and "."
     else
-            Console.WriteLine(items[item] + (item == 0 ? "." : ",")); //"?" if the item is 0 place "." else place ","
-<sup>*Logic used for syntax correction - C# program*</sup>
+        Console.WriteLine(items[item] + (item == 0 ? "." : ",")); //"?" if the item is 0 place "." else place ","
+</pre>
 
+<p><sup>*Logic used for syntax correction - C# program*</sup></p>
 
-### Substitution Cipher
+<h3>Substitution Cipher</h3>
 
-<img src="https://i.ibb.co/3Y4mYDv0/Screenshot-2025-05-12-145650.png" alt="Cipher"></a>
-> A program which allows user input to be encoded and decoded through **subtitution logic**.
+<img src="https://i.ibb.co/3Y4mYDv0/Screenshot-2025-05-12-145650.png" alt="Cipher" class="center">
+<p>A program which allows user input to be encoded and decoded through <b>substitution logic</b>.</p>
 
-     public string Encrypt(string _message)
-     {
-         int index;
-         char replacement = 'z';
-         string result = "";
-         _message = _message.ToLower();
-     
-         foreach (char c in _message)
-         {
-             index = alphabet.IndexOf(c);
-             replacement = substitute[index];
-             result += replacement;
-         }
-     
-         return result;
-     }
-<sup>*Encryption process referring to `substitute` string - C# program*</sup>
-
-### Star Pyramid
-
-<img src="https://i.ibb.co/Qv7Tzk84/pyramid-C.png" alt="Pyramid"></a>
-> A program which produces a triangle of asterisks using **loops**.
-
-    class Program
+<pre>
+public string Encrypt(string _message)
+{
+    int index;
+    char replacement = 'z';
+    string result = "";
+    _message = _message.ToLower();
+    
+    foreach (char c in _message)
     {
-        static void Main(string[] args) 
+        index = alphabet.IndexOf(c);
+        replacement = substitute[index];
+        result += replacement;
+    }
+    
+    return result;
+}
+</pre>
+
+<p><sup>*Encryption process referring to `substitute` string - C# program*</sup></p>
+
+<h3>Star Pyramid</h3>
+
+<img src="https://i.ibb.co/Qv7Tzk84/pyramid-C.png" alt="Pyramid" class="center">
+<p>A program which produces a triangle of asterisks using <b>loops</b>.</p>
+
+<pre>
+class Program
+{
+    static void Main(string[] args) 
+    {
+        int height = 12; //pyramid height
+
+        for (int i = 1; i <= height; i++) //outer loop
         {
-            int height = 12; //pyramid height
-    
-            for (int i = 1; i <= height; i++) //outer loop
+            //increasing - between * each row down
+            for (int j = 1; j <= height - i; j++)
             {
-                //increasing - between * each row down
-                for (int j = 1; j <= height - i; j++)
-                {
-                    Console.Write("-");
-                }
-    
-                //increase * by one
-                for (int k = 1; k <= (2 * i - 1); k++)
-                {
-                    Console.Write("*");
-                }
-    
-                //next line
-                Console.WriteLine();
+                Console.Write("-");
             }
+
+            //increase * by one
+            for (int k = 1; k <= (2 * i - 1); k++)
+            {
+                Console.Write("*");
+            }
+
+            //next line
+            Console.WriteLine();
         }
     }
-<sup>*Full program code using dashes as placeholders - C# program*</sup>    
+}
+</pre>
+
+<p><sup>*Full program code using dashes as placeholders - C# program*</sup></p>
 
 </body>
 </html>
+
