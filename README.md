@@ -29,7 +29,16 @@ I am a student at Columbia College Chicago. This portfolio showcases my work fro
 
 ### Cumlative Verse
 
-> A program which properly generates the lyrics to *"The Twelve Days of Christmas"* in sequential order, including correct grammar in the fixed format. 
+<img src="https://i.ibb.co/79RJtYW/Screenshot-2025-05-12-143739.png" alt="12Days"></a>
+> A program which properly generates the lyrics to *"The Twelve Days of Christmas"* in sequential order, including correct grammar in the fixed format.
+
+     //"if the item is 0 (Partridge) and the day is greater than 1 (1st day of Christmas)"
+    if (item == 0 && day > 1)
+            Console.WriteLine("and " + items[item] + "."); //it's the Partridge line and requires an "and" and "."
+    else
+            Console.WriteLine(items[item] + (item == 0 ? "." : ",")); //"?" if the item is 0 place "." else place ","
+<br><sup>*Logic used for syntax correction*</sup>
+
 
 ### Substitution Cipher
 
